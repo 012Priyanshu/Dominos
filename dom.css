@@ -324,3 +324,225 @@ a
     align-items: center;
 
 }
+
+.nav_panel i
+{
+    display: none;
+}
+
+@media only screen and (max-width:600px)
+{
+
+    .nav_logo {
+        height: 30px;
+        width: 200px;
+        position: relative;
+        left: 36px;
+        background-image: url(Logo.png);
+        background-size: cover;
+    }
+
+    .nav_panel{
+        color: grey;
+        font-size: 20px;
+        font-weight: 800;
+        display: grid;
+        position: relative;
+        top: 150px;
+        left: -443px;
+        transition: right 0.5s;
+        background-color: antiquewhite;
+        transition: left 0.5s;
+    }
+
+   
+
+    .nav1 .nav_panel a
+    {
+        display: block;
+        margin: 30;
+    }
+
+   
+    
+    
+
+
+    .nav_panel i {
+        display: block;
+        position: relative;
+        left: 27px;
+        top: -20px;
+        cursor: pointer;
+    }
+
+    .fa-solid, .fas {
+        font-weight: 900;
+        position: relative;
+        top: 59px;
+        left: -164px;
+        font-size: 25px;
+        color: azure;
+    }
+
+
+    .app {
+        height: 50px;
+        width: 180px;
+        background-color: rgb(252, 58, 58);
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        border-radius: 5px;
+        position: relative;
+        left: -100px;
+    }
+
+    .ppimg p {
+        margin-left: -28px;
+    }
+
+    .hero p {
+        font-size: 30px;
+        margin-left: 173px;
+    }
+
+    .order {
+        margin-left: 155px;
+        height: 50px;
+        width: 100px;
+        /* background-color: antiquewhite; */
+        margin-top: 35px;
+    }
+
+    .order a {
+        height: 57px;
+        width: 258px;
+        font-size: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: green;
+        color: whitesmoke;
+    }
+
+    .offers {
+        margin-left: 17px;
+        background-color: rgb(255,255,255);
+    }
+
+    .offer_img {
+        height: 250px;
+        background-color: rgb(255, 255, 255);
+        display: grid;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .offer_img1
+    {
+        margin-top: 28px;
+        background-color: rgb(255,255,255);
+    }
+
+    .menu {
+        height: 300px;
+        background-color: rgb(248, 241, 241);
+        display: inline-grid;
+        justify-content: space-evenly;
+        margin-top: 526px;
+        margin-left: 271px;
+        align-items: center;
+    }
+
+    
+    .menu_img p
+    {
+        height: 22px;
+        width: 301px;
+    }
+
+    .last h2 {
+        margin-left: 30px;
+        color: rgb(12, 99, 156);
+        font-size: 29px;
+        font-weight: bolder;
+        margin-top: 336px;
+    }
+
+    .ppimg p
+    {
+        
+            position: relative;
+            left: -91px;
+        
+    }
+
+    .hero_img {
+        display: none;
+    }
+
+    .explore {
+        height: 100px;
+        background-color: rgb(255, 255, 255);
+    }
+    .explore p {
+        position: relative;
+        top: 534px;
+        background-color: rgb(255 255 255);
+    }
+
+    .menu_img
+    {
+        background-color: rgb(255 255 255);
+    }
+    .last
+    {
+        height: 672px;
+    }
+
+    .last p {
+        width: 452px;
+        margin-left: 33px;
+        margin-top: 17px;
+        font-size: 13px;
+        color: grey;
+    }
+
+    .last2 {
+        position: relative;
+        top: -305px;
+    }
+
+    .last3 {
+        position: relative;
+        top: -613px;
+    }
+
+    .last h2
+    {
+        font-size: 22px;
+    }
+
+    .coupan {
+        height: 300px;
+        background-color: rgb(255, 251, 251);
+    }
+
+    .rights p
+    {
+        
+        
+            position: relative;
+            right: 33px;
+        
+    }
+
+    .f {
+        height: 1260px;
+        background-color: rgb(5, 39, 78);
+        display: grid;
+        border: 1px dotted grey;
+    }
+}
+
