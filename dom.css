@@ -1,0 +1,326 @@
+*
+{
+    margin: 0px;
+}
+
+.nav1
+{
+    height: 100px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+
+.nav_logo
+{
+    height: 30px;
+    width: 200px;
+    background-image: url(Logo.png);
+    background-size: cover;
+}
+
+.nav_panel
+{
+    color: grey;
+    font-size: 20px;
+    font-weight: 800;
+   
+    
+}
+
+.nav_panel a
+{
+    color: rgb(45, 133, 206);
+}
+
+
+.nav_panel a
+{
+    margin-left: 35px;
+}
+
+.app
+{
+    height: 50px;
+    width: 180px;
+    background-color: rgb(252, 58, 58);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 5px;
+}
+.app a
+{
+    color: aliceblue;
+    font-weight: 500;
+    margin-left: 7px;
+}
+
+.hero
+{
+    height: 350px;
+    background-color: rgba(8, 59, 155, 0.863);
+    color: aliceblue;
+    margin-top: -10px;
+ 
+}
+
+ .hero p
+{
+    font-size: 30px;
+    margin-left: 200px;
+} 
+
+.ppimg
+{
+    height: 100px;
+    width: 550px;
+    background-color: rgba(32, 82, 177, 0.863);
+     display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+
+}
+
+.ppimg p
+{
+   margin-left: 10px;
+}
+
+
+.pimg
+{
+   
+    margin-left: -130px;
+    margin-top: -30px;
+    color: lightseagreen;
+}
+
+.order 
+{
+    margin-left: 130px;
+    height: 50px;
+    width: 100px;
+    /* background-color: antiquewhite; */
+    margin-top: 35px;
+
+}
+
+.order a
+{
+    height: 70px;
+    width: 300px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    color: whitesmoke;
+}
+
+
+
+.hero_img
+{
+    height: 356px;
+    width: 700px;
+    background-size: cover;
+    margin-left: 650px;
+    margin-top: -195px;
+}
+
+.coupan
+{
+    height: 300px;
+    background-color: rgb(245, 231, 231);
+}
+
+.offers
+{
+   height: 100px;
+   width: 250px;
+   background-color: rgb(245, 231, 231);
+   margin-left: 60px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 30px;
+   color: rgb(12, 99, 156);
+   font-weight: bolder;
+   
+}
+
+.offer_img
+{
+    height: 250px;
+    background-color: rgb(245, 231, 231);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.offer_img1
+{
+    height: 200px;
+    width: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: -20px;
+    border-radius: 4px;
+    background-color: rgb(248, 241, 241);
+}
+
+.explore
+{
+    height: 100px;
+    background-color: rgb(248, 241, 241);
+    
+    
+}
+.explore p
+{
+    height: 100px;
+    width: 200px;
+   background-color: rgb(248, 241, 241);
+    margin-top: 5px;
+    color: rgb(12, 99, 156);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 30px; 
+}
+
+
+.menu
+{
+    height: 300px;
+    background-color: rgb(248, 241, 241);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+    
+}
+
+a
+{
+   font-size:20px ;
+   font-weight: bolder;
+   color: rgb(32, 34,37);
+   margin-left: -20px;
+}
+
+
+.menu_img i
+{
+    font-size: 70px;
+    color: rgb(32, 34, 37);
+    
+   
+    
+    
+}
+
+.menu_img p
+{
+    height: 200px;
+    width: 300px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: -100px;
+    margin-top: 30px;
+   
+    
+}
+
+
+.last
+{
+    height: 600px;
+    background-color: rgb(248, 241, 241);
+}
+
+.last h2
+{
+    margin-left: 30px;
+    color: rgb(12, 99, 156);
+    font-size: 35px;
+    font-weight: bolder;
+
+}
+
+.last p
+{
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 18px;
+    color: grey;
+
+}
+
+.last2
+{
+    margin-top: 30px;
+}
+
+.last3
+{
+    margin-top: 30px;
+}
+
+.f
+{
+    height: 350px;
+    background-color: rgb(5, 39, 78);
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px dotted grey;
+
+ 
+}
+
+.height
+{
+    height: 50px;
+    background-color: rgb(5, 39, 78);
+    width: 200px;
+    display: flex;
+    align-items: last baseline;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+
+.f p
+{
+    
+    color:grey ;
+}
+
+.f a
+{
+    display: block;
+   color: rgb(178, 193, 206);
+    margin-top: 20px;
+    font-size: 16px;
+    margin-left: 3px;
+}
+
+.rights
+{
+
+    height: 70px;
+    background-color: rgb(4, 34, 68);
+    color: rgb(178, 193, 206);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
