@@ -12,12 +12,16 @@
             <div class="nav1">
                 <div class="nav_logo"></div>
 
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+
                 <div class="nav_panel">
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
                     <a>Our Menu</a>
                     <a>Domino's Stores</a>
                     <a>Gift Cards</a>
                     <a>Corporate Enquiry</a>
                     <a>Contact</a>
+                    
                 </div>
                 <div class="app">
                     <a>Download App</a>
@@ -68,7 +72,7 @@
                         <i class="fa-solid fa-layer-group"></i>
                         <br>
                     <a>OUR MENU</a>
-                    <p>Explore our range of delicious pizza's,delivered in 30 minutes</p>
+                    <p>Explore our range of delicious pizza's.</p>
                     </div>
                 </div>
 
@@ -85,7 +89,7 @@
                     <i class="fa-solid fa-cake-candles"></i>
                     <br>
                 <a>BIRTHDAY PARTY'S</a>
-                <p>Celebrate the joy of birthday with fresh & hot pizza's</p>
+                <p>Celebrate the joy of birthday with fresh <br> & hot pizza's</p>
                 </div>
 
 
@@ -93,7 +97,7 @@
                     <i class="fa-solid fa-plate-wheat"></i>
                     <br>
                 <a>CATERING</a>
-                <p>Live dominos kitchen for wedding &</p>
+                <p>Live dominos kitchen for wedding </p>
                 </div>
 
                 
@@ -183,6 +187,19 @@ There is something for everyone here. The vegetarians, non-vegetarians, the side
        <p>All Rights Reserved. Copyright © Jubilant FoodWorks Ltd.</p>
     </div>
 </footer>
+
+<script>
+    var nav1=document.getElementById("nav1");
+    function openmenu()
+    {
+        nav1.style.right="-220";
+    } 
+
+    function closemenu()
+    {
+        nav1.style.right="0";
+    } 
+</script>
         
 </body>
 </html>
