@@ -1,6 +1,8 @@
 *
 {
     margin: 0px;
+    padding: 0;
+    box-sizing: 0;
 }
 
 .nav1
@@ -330,7 +332,7 @@ a
     display: none;
 }
 
-@media only screen and (max-width:600px)
+  @media only screen and (max-width:600px)
 {
 
     .nav_logo {
@@ -411,7 +413,7 @@ a
         margin-left: 155px;
         height: 50px;
         width: 100px;
-        /* background-color: antiquewhite; */
+         background-color: antiquewhite; 
         margin-top: 35px;
     }
 
@@ -544,5 +546,151 @@ a
         display: grid;
         border: 1px dotted grey;
     }
+}  
+
+@media only screen and (max-width:450px)
+{
+    .nav1 {
+        height: 100px;
+        background-color: whitesmoke;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        position: fixed;
+    }
+
+    .hero {
+        height: 350px;
+        width: 442px;
+        background-color: rgba(8, 59, 155, 0.863);
+        color: aliceblue;
+        margin-top: -10px;
+    }
+
+    .fa-solid, .fas {
+        font-weight: 900;
+        position: relative;
+        top: 78px;
+        left: -164px;
+        font-size: 25px;
+        color: azure;
+    }
+
+    .nav_logo {
+        height: 30px;
+        width: 198px;
+        position: relative;
+        left: 5px;
+        background-image: url(Logo.png);
+        background-size: cover;
+    }
+    .ppimg p {
+        position: relative;
+        left: -157px;
+        top: 36px;
+    }
+    .hero p {
+        font-size: 25px;
+        margin-left: 150px;
+        position: relative;
+        top: 110px;
+    }
+
+    .order {
+        margin-left: 151px;
+        height: 0;
+        width: 100px;
+        background-color: antiquewhite;
+        margin-top: 81px;
+    }
+
+    .app {
+    height: 28px;
+    width: 135px;
+    background-color: rgb(252, 58, 58);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 5px;
+    position: relative;
+    top: 10px;
+    left: -177px;
 }
 
+    .order a {
+        height: 46px;
+        width: 187px;
+        font-size: 22px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: green;
+        position: relative;
+        top: 64px;
+        left: -32px;
+        color: whitesmoke;
+    }
+    .offer_img1 {
+        height: 160px;
+        width: 436px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .coupan {
+        height: 300px;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .menu {
+        height: 300px;
+        background-color: rgb(248, 241, 241);
+        display: inline-grid;
+        justify-content: space-evenly;
+        margin-top: 526px;
+        margin-left: 180px;
+        align-items: center;
+    }
+
+
+    .last p {
+        width: 360px;
+        margin-left: 7px;
+        margin-top: 17px;
+        font-size: 13px;
+        color: grey;
+    }
+    .last {
+        height: 780px;
+        width: 442px;
+    }
+
+
+    .last h2 {
+        margin-left: 20px;
+        color: rgb(12, 99, 156);
+        font-size: 29px;
+        font-weight: bolder;
+        margin-top: 336px;
+        font-size: 18px;
+    }
+
+    .rights
+    {
+        font-size: 13px;
+    }
+
+    .rights p {
+        position: relative;
+        right: 4px;
+    }
+
+    .f
+    {
+        height: 1260px;
+    width: 586px;
+    background-color: rgb(5, 39, 78);
+    display: grid;
+    border: 1px dotted grey;
+    }
+}
