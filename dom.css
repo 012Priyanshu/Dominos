@@ -585,16 +585,19 @@ a
         background-image: url(Logo.png);
         background-size: cover;
     }
+
+    .ppimg {
+       display: none;
+    }
     .ppimg p {
-        position: relative;
-        left: -157px;
-        top: 36px;
+        display: none;
     }
     .hero p {
-        font-size: 25px;
-        margin-left: 141px;
+        font-size: 23px;
+        margin-left: 203px;
         position: relative;
-        top: 110px;
+        color: aliceblue;
+        top: 147px;
     }
 
     .order {
@@ -615,7 +618,7 @@ a
         border-radius: 5px;
         position: relative;
         top: 10px;
-        left: -81px;
+        left: -29px;
     }
 
     .app a {
@@ -634,8 +637,8 @@ a
         align-items: center;
         background-color: green;
         position: relative;
-        top: 64px;
-        left: -32px;
+        top: 90px;
+        left: -11px;
         color: whitesmoke;
     }
     .offer_img1 {
@@ -699,7 +702,7 @@ a
 
     .rights p {
         position: relative;
-        right: 28px;
+        right: 2px;
     }
 
     .f
