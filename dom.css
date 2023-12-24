@@ -594,7 +594,7 @@ a
     }
     .hero p {
         font-size: 23px;
-        margin-left: 203px;
+        margin-left: 168px;
         position: relative;
         color: aliceblue;
         top: 147px;
@@ -618,7 +618,7 @@ a
         border-radius: 5px;
         position: relative;
         top: 10px;
-        left: -29px;
+        left: -72px;
     }
 
     .app a {
@@ -702,7 +702,7 @@ a
 
     .rights p {
         position: relative;
-        right: 2px;
+        right: 27px;
     }
 
     .f
